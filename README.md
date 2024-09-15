@@ -16,7 +16,7 @@ The primary goal here is to conduct a descriptive analysis of the yearly trends 
 ## Project Objective:
 * Design a dAP for Building Permits Issed using Building Permits Dataset.
 * I decided this will be my dataset to get information related to percentages of permits issued for each category or type over time in city of Vancouver.
-* The 11 steps of information is shown below: <br>
+* The 3 steps of information is shown below: <br>
 ## Datasets
 * There are two datasets which I used are .
 * The first dataset is **"cummulative_issued-building-permits-2024"**, it contains information on all building permits issued:
