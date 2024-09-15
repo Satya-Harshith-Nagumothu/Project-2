@@ -1,4 +1,4 @@
-<h1 align="center">Project 2 for AWS Assignemnt</h1>
+<h1 align="center">Project 2 for AWS Assignment</h1>
 <p align="center">
 Satya Harshith Nagumothu [2221973] <br>
 University Canada West<br>
