@@ -44,21 +44,29 @@ The primary goal here is to conduct a descriptive analysis of the yearly trends 
 * Data governance refers to the policies, standards, and practices for managing and using data in a way that aligns with organizational goals and regulatory requirements.
 * It ensures the quality, integrity, and security of data across its lifecycle.
 * For this first I am creating Trusted folder where i can store data which has been masked to protect sensitive data information.<br>
-![fig27](https://github.com/user-attachments/assets/42a7f45d-2a77-4427-b4a0-6502f05af6a7)
+![fig18](https://github.com/user-attachments/assets/33ccbc7e-e0d3-4ca3-bf9c-4f0754d0c457)
 * The above image shows the Trusted folder created.
 * I them create an ETL to convert the raw data available using ETL to identify and mask the sensitive information.<br>
-![fig28](https://github.com/user-attachments/assets/e0fb6123-ac94-41f1-b9d8-1c8003ee55a6)
+![fig19](https://github.com/user-attachments/assets/8596cdd1-50a7-4623-9ddc-875fc42df64b)
 * The above image shows the ETL pipeline for saving the trusted information from raw data.
 * I then move on to storing the information retrieved from ETL into the trusted folder.<br>
-![fig29](https://github.com/user-attachments/assets/ca5e6f77-1ac7-4b88-8389-86f9df496390)
+![fig20](https://github.com/user-attachments/assets/ec37650f-6d91-4f80-a556-95fad9aaedea)
 * The above image shows the resultant information stored as csv file in trusted folder.
 ### Step 17: Data Monitoring
 * Data monitoring involves continuously tracking data usage and access to ensure compliance with governance policies, detect potential breaches, and maintain data integrity.
 * Here we will be using "**AWS CloudWatch**" service to create a dashboard based on our needs.<br>
-![fig39](https://github.com/user-attachments/assets/c2b37041-9b1f-4b57-bb10-98a26f017e8c)
+![fig30](https://github.com/user-attachments/assets/ae5a50ff-ff0c-4703-b0d3-3ad7ea130a81)
 * The above image displays the dashboard of AWS CloudWatch
 * I then move on to create a user activity trail using the "**AWS CloudTrail**" service, so that i can track user activities for any anomalies.<br>
-![fig40](https://github.com/user-attachments/assets/8b022324-8eb3-4b4e-b7bc-854ad8d49b3c)
+![fig31](https://github.com/user-attachments/assets/ff49c1e4-5f5a-4a6c-a54f-a53529a43126)
 * The above image shows the cloud trail created for tracking user activity.<br>
-![fig41](https://github.com/user-attachments/assets/0af61951-03a0-44ae-8a78-a303ea702d14)
+![fig32](https://github.com/user-attachments/assets/d0866e77-e861-4cc4-b886-cc5b207b2059)
 * The above image displays the information of cloud trail saved in S3.
+## Tools and Technologies:
+* The lsit of Tools or technologies used are:
+  * AWS-S3
+  * AWS-Glue
+  * AWS-IAM
+  * AWS-KMS
+  * AWS-CloudWatch
+  * AWS-CloudTrail
